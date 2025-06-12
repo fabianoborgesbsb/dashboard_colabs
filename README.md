@@ -1,4 +1,4 @@
-STI Collaboration Dashboard
+STI - Collaboration Dashboard
 
 Conference paper: https://zenodo.org/records/14140026
 
