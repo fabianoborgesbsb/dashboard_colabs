@@ -1,0 +1,474 @@
+Id,Label,timeset,latitude,longitude,colabs_total,modularity_class
+1294671590,French National Centre for Scientific Research,,48.85341,2.3488,942111,2
+136199984,Harvard University,,42.3751,-71.10561,430445,0
+39804081,Sorbonne Université,,48.85341,2.3488,320553,2
+154526488,Inserm,,48.85341,2.3488,255681,2
+45129253,University College London,,51.50853,-0.12574,244122,2
+1283280774,Brigham and Women's Hospital,,42.35843,-71.05977,240984,2
+97018004,Stanford University,,37.42411,-122.16608,231091,1
+27837315,University of Michigan–Ann Arbor,,42.27756,-83.74088,217096,2
+19820366,Chinese Academy of Sciences,,39.9075,116.39723,215443,0
+204730241,Université Paris Cité,,48.85341,2.3488,211175,2
+79576946,University of Pennsylvania,,39.952457,-75.19322,200525,0
+40120149,University of Oxford,,51.75222,-1.25596,199668,2
+201448701,University of Washington,,47.60621,-122.33207,186826,2
+145311948,Johns Hopkins University,,39.29038,-76.61219,177438,2
+78577930,Columbia University,,40.71427,-74.00597,173151,0
+47508984,Imperial College London,,51.50853,-0.12574,171618,2
+95457486,"University of California, Berkeley",,37.87159,-122.27275,171270,1
+8204097,Ludwig-Maximilians-Universität München,,48.13743,11.57549,169145,2
+32971472,Yale University,,41.30815,-72.92816,169026,2
+36258959,"University of California, San Diego",,32.71571,-117.16472,165591,2
+185261750,University of Toronto,,43.70011,-79.4163,165143,2
+241749,University of Cambridge,,52.2,0.11667,163064,0
+28166907,Karolinska Institutet,,59.32938,18.06871,158923,2
+1299303238,National Institutes of Health,,38.98067,-77.10026,157167,2
+5023651,McGill University,,45.50884,-73.58781,153904,2
+7877124,Charité - Universitätsmedizin Berlin,,52.52437,13.41053,149069,2
+52357470,The Ohio State University,,39.96118,-82.99879,145923,2
+9360294,University of Bologna,,44.49381,11.33875,143210,0
+74801974,The University of Tokyo,,35.6895,139.69171,142307,0
+63966007,Massachusetts Institute of Technology,,42.3751,-71.10561,140049,0
+161318765,"University of California, Los Angeles",,34.05223,-118.24368,136671,2
+205783295,Cornell University,,42.44063,-76.49661,134935,2
+27804330,Brown University,,41.8262,-71.4032,128967,2
+56590836,Monash University,,-37.814,144.96332,127192,2
+40347166,University of Chicago,,41.85003,-87.65005,124681,2
+180670191,"University of California, San Francisco",,37.77493,-122.41942,122065,2
+165779595,University of Melbourne,,-37.814,144.96332,119899,2
+223822909,Heidelberg University,,49.40768,8.69079,118977,2
+33213144,University of Florida,,29.65163,-82.32483,118256,2
+277688954,University of Paris-Saclay,,48.68333,2.13333,116702,1
+141945490,University of British Columbia,,49.24966,-123.11934,115302,0
+84218800,"University of California, Davis",,38.54491,-121.74052,115254,0
+98677209,University of Edinburgh,,55.95206,-3.19648,114244,1
+28407311,University of Manchester,,53.48095,-2.23743,113513,2
+1343551460,The University of Texas MD Anderson Cancer Center,,29.70706,-95.39697,112334,2
+135310074,University of Wisconsin–Madison,,43.07305,-89.40123,111035,0
+7882870,University of Glasgow,,55.86515,-4.25763,110957,2
+196272386,Providence College,,41.82399,-71.41283,110516,2
+31746571,UNSW Sydney,,-33.86785,151.20732,110334,2
+129604602,University of Sydney,,-33.86785,151.20732,109172,0
+99464096,KU Leuven,,50.87959,4.70093,108312,1
+57206974,New York University,,40.71427,-74.00597,108035,0
+2738703131,Atomic Energy and Alternative Energies Commission,,48.85341,2.3488,107806,1
+183935753,King's College London,,51.50853,-0.12574,103925,2
+21491767,Aix-Marseille University,,43.29695,5.38107,103848,2
+20231570,Peking University,,39.9075,116.39723,103049,0
+1288882113,Boston Children's Hospital,,42.35843,-71.05977,102953,2
+170201317,University of Pittsburgh,,40.44062,-79.99589,102487,2
+66946132,"University of Maryland, College Park",,38.98067,-76.93692,99977,0
+99065089,Tsinghua University,,39.999584,116.32542,99901,1
+148283060,Lawrence Berkeley National Laboratory,,37.87159,-122.27275,98454,2
+35440088,ETH Zurich,,47.36667,8.55,97571,2
+130238516,University of Minnesota,,44.97997,-93.26384,94797,0
+98704320,Icahn School of Medicine at Mount Sinai,,40.71427,-74.00597,93846,1
+138006243,University of Arizona,,32.22174,-110.92648,93531,0
+1334819555,Memorial Sloan Kettering Cancer Center,,40.71427,-74.00597,92746,2
+170897317,Duke University,,35.99403,-78.89862,91041,2
+1335113835,Karolinska University Hospital,,59.32938,18.06871,90837,2
+1344073410,Howard Hughes Medical Institute,,39.021835,-77.1563,90356,2
+111979921,Northwestern University,,42.04114,-87.69006,89951,0
+157725225,University of Illinois Urbana-Champaign,,40.11059,-88.20727,86899,2
+1316535847,Beth Israel Deaconess Medical Center,,42.339787,-71.10519,85952,2
+159176309,Universität Hamburg,,53.55073,9.99302,85616,2
+98251732,McMaster University,,43.25011,-79.84963,85111,1
+124055696,University of Copenhagen,,55.67594,12.56553,84671,0
+86519309,The University of Texas at Austin,,30.26715,-97.74306,84642,0
+5681781,University of Adelaide,,-34.92866,138.59863,84058,2
+1316902750,Cleveland Clinic,,41.384144,-81.71841,83374,2
+70931966,Université de Montréal,,45.50884,-73.58781,82598,2
+62916508,Technical University of Munich,,48.13743,11.57549,82296,0
+36234482,University of Bristol,,51.45523,-2.59665,82026,2
+51556381,University of Virginia,,38.02931,-78.47668,81860,2
+19894307,University of Montpellier,,43.61093,3.87635,81858,0
+145872427,Radboud University Nijmegen,,51.8425,5.85278,81548,2
+1330342723,Mayo Clinic,,44.02163,-92.4699,81186,2
+150468666,Emory University,,33.749,-84.38798,80800,2
+1282105669,Argonne National Laboratory,,41.67364,-88.00173,80797,2
+32389192,University of Alabama at Birmingham,,33.52066,-86.80249,80600,2
+87216513,Michigan State University,,42.73698,-84.48387,80530,0
+187531555,Lund University,,55.70584,13.19321,79968,2
+899635006,Université Grenoble Alpes,,45.1787,5.76281,79316,1
+22299242,Kyoto University,,35.02107,135.75385,78569,2
+138689650,University of Padua,,45.40797,11.88586,78508,0
+204465549,Washington University in St. Louis,,38.62727,-90.19789,78321,2
+8087733,University of Tübingen,,48.52266,9.05222,78320,2
+58610484,Seattle University,,47.61039,-122.31714,77075,0
+79619799,University of Birmingham,,52.450558,-1.930556,76833,0
+146655781,University of Liverpool,,53.41058,-2.97794,76650,2
+183067930,Shanghai Jiao Tong University,,31.22222,121.45806,76447,2
+71999127,University of Barcelona,,41.38879,2.15899,76356,2
+17974374,Universidade de São Paulo,,-23.5475,-46.63611,75876,0
+130769515,Pennsylvania State University,,40.79339,-77.86,75730,0
+114027177,University of North Carolina at Chapel Hill,,35.9132,-79.05584,75527,0
+202697423,University of Zurich,,47.36667,8.55,75244,2
+39422238,University of Illinois at Chicago,,41.85003,-87.65005,73611,2
+111088046,Boston University,,42.35843,-71.05977,72988,0
+20089843,Princeton University,,40.34872,-74.65905,72981,0
+848706,Sungkyunkwan University,,37.588223,126.99361,72847,2
+126520041,University of Science and Technology of China,,31.86389,117.28083,72691,0
+165143802,University of Queensland,,-27.46794,153.02809,72191,2
+5388228,University of Rochester,,43.15478,-77.61556,72159,2
+189158943,University of Milan,,45.46427,9.18951,71959,2
+5124864,École Polytechnique Fédérale de Lausanne,,46.516,6.63282,71801,2
+39343248,Humboldt-Universität zu Berlin,,52.52437,13.41053,71537,2
+122411786,California Institute of Technology,,34.14778,-118.14452,71283,0
+58956616,Case Western Reserve University,,41.4995,-81.69541,70661,0
+91045830,Texas A&M University,,30.610369,-96.344055,70627,1
+68618741,Polytechnic University of Bari,,41.10907,16.878365,70389,2
+154425047,University of Alberta,,53.55014,-113.46871,69790,2
+4432739,University of Bergen,,60.39299,5.32415,69761,2
+21250087,Charles University,,50.08804,14.42076,69696,2
+188538660,University of Colorado Boulder,,40.01499,-105.27055,69572,2
+1306266525,Goddard Space Flight Center,,39.00455,-76.87553,69553,2
+223532165,University of Utah,,40.76496,-111.84215,69202,2
+43439940,University of Southampton,,50.93463,-1.39595,69157,2
+123387679,Uppsala University,,59.85882,17.63889,69003,0
+157773358,Sun Yat-sen University,,23.11667,113.25,68618,2
+59553526,Stony Brook University,,40.914223,-73.11623,68115,0
+204250578,"University of California, Irvine",,33.66946,-117.82311,67774,2
+75027704,University of Tennessee at Knoxville,,35.96064,-83.92074,67353,0
+134560555,Université Toulouse III - Paul Sabatier,,43.60426,1.44367,67138,0
+1289243028,Oak Ridge National Laboratory,,36.01036,-84.26964,66966,2
+133731052,University of Helsinki,,60.16952,24.93545,66922,0
+24943067,Fudan University,,31.22222,121.45806,66564,2
+98285908,Osaka University,,34.69374,135.50218,66413,1
+200719446,Vanderbilt University,,36.144936,-86.80269,66204,2
+151201029,Consejo Nacional de Investigaciones Científicas y Técnicas,,-34.61315,-58.37723,65002,2
+184942183,University of Oslo,,59.91273,10.74609,63962,2
+55769427,Indiana University – Purdue University Indianapolis,,39.776966,-86.16858,63360,2
+181547552,Baylor College of Medicine,,29.76328,-95.36327,62885,2
+102322142,"Rutgers, The State University of New Jersey",,40.48622,-74.45182,62839,0
+1282311441,Lawrence Livermore National Laboratory,,37.68187,-121.76801,62403,2
+55143463,University of Turin,,45.07049,7.68682,62205,2
+91136226,University of Sheffield,,53.38297,-1.4659,61992,1
+166337079,Queen Mary University of London,,51.50853,-0.12574,61795,2
+4210145102,Institut Polytechnique de Paris,,48.71828,2.2498,61346,1
+63634437,Autonomous University of Madrid,,40.4165,-3.70256,60718,2
+78650965,TU Dresden,,51.05089,13.73832,60093,0
+1334627681,Jet Propulsion Laboratory,,34.19917,-118.18785,59512,2
+169381384,University of Groningen,,53.219444,6.562966,59037,2
+4210087915,Massachusetts General Hospital,,42.35843,-71.05977,58971,1
+161593684,Stockholm University,,59.32938,18.06871,58778,2
+118564535,University of Bern,,46.94809,7.44744,58526,0
+8692664,University of Oklahoma,,35.22257,-97.43948,58336,0
+126307644,University of Iowa,,41.66113,-91.53017,58076,0
+165932596,National University of Singapore,,1.28967,103.85007,58047,2
+76130692,Zhejiang University,,30.263878,120.12342,57288,0
+200777214,National and Kapodistrian University of Athens,,37.968266,23.778343,56821,2
+108290504,University of Pisa,,43.71643,10.398687,56503,0
+135140700,University of Bonn,,50.73438,7.09549,56335,0
+76134821,Medical University of Vienna,,48.20849,16.37208,56218,2
+60134161,Nagoya University,,35.18147,136.9064,55881,0
+45084792,University of Florence,,43.77925,11.24626,55429,2
+114457229,University of Geneva,,46.20222,6.14569,55261,0
+55732556,Arizona State University,,33.41477,-111.90931,55208,0
+34352273,Maastricht University,,50.845833,5.687222,54362,2
+100532134,Claude Bernard University Lyon 1,,45.76601,4.8795,54023,0
+74656192,University of Göttingen,,51.53443,9.93228,53845,0
+2801952686,Erasmus MC,,51.9225,4.47917,53843,1
+39555362,University of Warwick,,52.379436,-1.561502,53533,2
+32597200,Ghent University,,51.05,3.71667,53312,2
+130828816,University of Leeds,,53.79648,-1.54785,53101,0
+154570441,"University of California, Santa Barbara",,34.42083,-119.69819,53048,2
+4210153126,Istituti di Ricovero e Cura a Carattere Scientifico,,41.89193,12.51133,52628,1
+83816512,University of Genoa,,44.40292,8.958889,52390,0
+4068193,University of Belgrade,,44.80401,20.46513,52183,2
+8961855,Universidad Nacional Autónoma de México,,19.42847,-99.12766,51742,0
+193662353,Utrecht University,,52.09083,5.12222,51603,2
+142263535,University of Nottingham,,52.93807,-1.196703,51602,0
+24354313,University of Buenos Aires,,-34.61315,-58.37723,51408,2
+197323543,Johannes Gutenberg University Mainz,,49.98419,8.2791,50977,2
+139264467,Seoul National University,,37.460155,126.9519,50926,0
+63135867,University of Cincinnati,,39.132023,-84.51555,50486,0
+44260953,Heinrich Heine University Düsseldorf,,51.22172,6.77616,50388,2
+1343871089,Los Alamos National Laboratory,,35.88808,-106.30697,50293,2
+25217355,University of Pavia,,45.19205,9.15917,50288,2
+201537933,Tohoku University,,38.26667,140.86667,50076,2
+19880235,Lomonosov Moscow State University,,55.75222,37.61556,49509,0
+25974101,University of Würzburg,,49.79391,9.95121,49321,2
+74973139,Carnegie Mellon University,,40.44062,-79.99589,49169,2
+168635309,University of Calgary,,51.05011,-114.08529,49000,2
+1292875679,Commonwealth Scientific and Industrial Research Organisation,,-35.28346,149.12807,48968,2
+71267560,University of Naples Federico II,,40.84722,14.256944,48889,2
+161046081,University of Freiburg,,47.9959,7.85222,48659,2
+24603500,University of Massachusetts Amherst,,42.37537,-72.51925,48465,2
+79510175,Cardiff University,,51.48,-3.18,48065,0
+157614274,University of Cape Town,,-33.96333,18.47639,47528,2
+123044942,Autonomous University of Barcelona,,41.49109,2.14079,47127,0
+75951250,Freie Universität Berlin,,52.52437,13.41053,47095,0
+97565354,University of Lausanne,,46.516,6.63282,46789,1
+47251452,Wake Forest University,,36.09986,-80.24422,46780,2
+219193219,Purdue University West Lafayette,,40.42587,-86.90807,46543,2
+145608581,University of Miami,,25.72149,-80.26838,45979,2
+165690674,Oregon Health & Science University,,45.52345,-122.67621,45927,2
+177877127,University of Western Australia,,-31.95224,115.8614,45853,2
+185443292,Wayne State University,,42.33143,-83.04575,45349,2
+15057530,University of Bordeaux,,44.84044,-0.5805,44947,0
+63190737,"University at Buffalo, State University of New York",,42.88645,-78.87837,44888,0
+177725633,Chinese University of Hong Kong,,22.419722,114.206795,44880,2
+141596103,University of Lisbon,,38.71667,-9.13333,44710,0
+84884186,Newcastle University,,54.97328,-1.61396,44574,0
+102197404,University of Paris-Sud,,48.69572,2.18727,44370,0
+86987016,KTH Royal Institute of Technology,,59.32938,18.06871,44214,0
+95674353,Université Catholique de Louvain,,50.66829,4.61443,44109,1
+16391192,Tel Aviv University,,32.113388,34.802155,44103,0
+4654613,University of Warsaw,,52.22977,21.01178,43975,2
+149213910,University of Antwerp,,51.22273,4.40843,43788,2
+43406934,Université Laval,,46.81228,-71.21454,43646,2
+118347636,Australian National University,,-35.28346,149.12807,43554,0
+114090438,Goethe University Frankfurt,,50.11552,8.68417,43517,0
+34809795,Hannover Medical School,,52.37052,9.73322,43416,2
+204337017,Aarhus University,,56.15674,10.21076,43231,2
+132053463,Université Libre de Bruxelles,,50.85045,4.34878,42779,0
+130701444,Georgia Institute of Technology,,33.749,-84.38798,42384,0
+46247651,University of Manitoba,,49.806892,-97.13834,42284,2
+3018483916,University Medical Center Utrecht,,52.09083,5.12222,42204,1
+47720641,Huazhong University of Science and Technology,,30.508183,114.41474,41869,2
+92446798,Colorado State University,,40.58526,-105.08442,41323,1
+180923762,University of Cologne,,50.93333,6.95,41296,2
+153718931,University of Ottawa,,45.41117,-75.69812,41213,2
+96673099,Technical University of Denmark,,55.77044,12.50378,41190,1
+135598925,Kyushu University,,33.6,130.41667,40992,0
+1286329397,United States Geological Survey,,38.96872,-77.3411,40947,2
+90267481,Umeå University,,63.82842,20.25972,40890,1
+2799853436,Johns Hopkins Medicine,,39.29038,-76.61219,40869,1
+169521973,University of New Mexico,,35.08449,-106.65114,40736,2
+173911158,Iowa State University,,42.03471,-93.61994,40712,2
+2802164966,University Hospital Heidelberg,,49.40768,8.69079,40545,1
+99043593,Macquarie University,,-33.775257,151.11292,40152,1
+154130895,University of Auckland,,-36.84853,174.76349,40093,2
+146399215,University of Tsukuba,,36.2,140.1,39147,2
+154099455,Shandong University,,36.67361,117.05389,38767,2
+1289490764,Centers for Disease Control and Prevention,,33.749,-84.38798,38688,2
+114531698,Tokyo Institute of Technology,,35.6895,139.69171,38554,0
+1327163397,State University of New York,,42.65258,-73.75623,38408,2
+887064364,University of Amsterdam,,52.37403,4.88969,38111,1
+53964585,Weizmann Institute of Science,,31.89421,34.81199,37558,2
+172675005,Nanyang Technological University,,1.28967,103.85007,37469,2
+23923803,University of Exeter,,50.7236,-3.52751,36956,2
+181369854,Friedrich-Alexander-Universität Erlangen-Nürnberg,,49.59099,11.00783,36897,2
+1312222531,Agricultural Research Service,,38.89511,-77.03637,36773,2
+4575257,Hanyang University,,37.55747,127.04531,36744,2
+103635307,"University of California, Riverside",,33.95335,-117.39616,36726,0
+2802934949,Radboud University Nijmegen Medical Centre,,51.8425,5.85278,36714,1
+116067653,University of Rome Tor Vergata,,41.85015,12.597991,36573,0
+121797337,Leiden University,,52.15833,4.49306,36540,0
+74775410,Rice University,,29.76328,-95.36327,36192,0
+153648349,University of Leicester,,52.6386,-1.13169,35625,2
+102335020,Karlsruhe Institute of Technology,,49.00937,8.40444,35486,0
+190082696,Durham University,,54.76518,-1.578224,35376,2
+2800006345,Leiden University Medical Center,,52.15833,4.49306,35332,1
+98358874,Delft University of Technology,,52.00667,4.35556,35104,1
+121934306,Tufts University,,42.41843,-71.10616,34593,0
+139660479,Central South University,,28.19874,112.97087,34580,0
+24185976,Sichuan University,,30.63016,104.09001,34503,2
+103163165,Florida State University,,30.43826,-84.28073,34483,0
+162608824,University of Sussex,,50.865276,-0.085556,34237,2
+861853513,Sapienza University of Rome,,41.90384,12.514438,34049,1
+76903346,University of Coimbra,,40.20564,-8.41955,33916,2
+18014758,Simon Fraser University,,49.26636,-122.95263,33872,0
+2799503643,Columbia University Irving Medical Center,,40.71427,-74.00597,33843,1
+129774422,University of Vienna,,48.20849,16.37208,33840,0
+22465464,University of Münster,,51.96236,7.62571,33719,2
+107639228,University of Notre Dame,,41.70578,-86.23568,33510,0
+193775966,Yonsei University,,37.566,126.9784,33472,2
+100930933,University College Dublin,,53.33306,-6.24889,33408,0
+21370196,Aristotle University of Thessaloniki,,40.64361,22.93086,33387,2
+146416000,University of Kansas,,38.97167,-95.23525,33246,2
+192619145,University of the Witwatersrand,,-26.20227,28.04363,33012,2
+2613432,University of South Florida,,28.054562,-82.413055,32996,0
+122140584,Universidade Federal do Rio de Janeiro,,-22.90642,-43.18223,32890,0
+137902535,North Carolina State University,,35.7721,-78.63861,32579,0
+200296433,Chinese Academy of Medical Sciences & Peking Union Medical College,,39.9075,116.39723,32533,2
+125749732,Western University,,43.00984,-81.27376,32143,0
+126744593,"University of Maryland, Baltimore",,39.29038,-76.61219,31957,0
+37461747,Wuhan University,,30.58333,114.26667,31595,2
+16733864,National Taiwan University,,25.016,121.536,31523,0
+16097986,University of Valencia,,39.47391,-0.37966,31159,0
+193531525,George Washington University,,38.89511,-77.03637,31013,2
+3923682,Soochow University,,31.30919,120.641335,30974,2
+173304897,University of Granada,,37.18817,-3.60667,30966,2
+143302722,University of Kentucky,,37.98869,-84.47772,30812,2
+9617848,Universitat Politècnica de Catalunya,,41.38879,2.15899,30646,0
+82880672,Beihang University,,39.98,116.340836,30389,0
+76835614,University of Missouri,,38.95171,-92.33407,30226,0
+913958620,Erasmus University Rotterdam,,51.9225,4.47917,29950,1
+80281795,University of Otago,,-45.87416,170.50362,29786,0
+126596746,Jagiellonian University,,50.06143,19.93658,29686,0
+99542240,Polish Academy of Sciences,,52.22977,21.01178,29600,1
+165733156,University of Georgia,,33.96095,-83.37794,29456,2
+205349734,Hokkaido University,,43.07818,141.33997,29428,2
+129975664,Albert Einstein College of Medicine,,40.84985,-73.86641,29382,0
+197347611,Korea University,,37.590477,127.02679,29361,2
+52099693,University of York,,53.95763,-1.08271,29174,2
+1321296531,National Institute of Standards and Technology,,39.14344,-77.20137,29071,2
+4210097159,Assistance Publique – Hôpitaux de Paris,,48.85341,2.3488,28967,1
+157674565,University of Liège,,50.63373,5.56749,28902,2
+116953780,Tongji University,,31.22222,121.45806,28814,0
+1850255,University of Basel,,47.55839,7.57327,28808,0
+200763008,University of Giessen,,50.58051,8.677088,28529,2
+65837984,Kobe University,,34.6913,135.183,28450,2
+182534213,University of Porto,,41.14961,-8.61099,28433,2
+151746483,University of Waterloo,,43.472534,-80.544876,28172,2
+87445476,Xi'an Jiaotong University,,34.247223,108.979164,28053,0
+174306211,Technion – Israel Institute of Technology,,32.81841,34.9885,28044,2
+33849332,University of Malaya,,3.1412,101.68653,27906,2
+32021983,Kiel University,,54.32133,10.13489,27866,2
+62318514,University of Duisburg-Essen,,51.45657,7.01228,27646,2
+921990950,University of Colorado Denver,,39.73915,-104.9847,27596,1
+181391015,Universidade Estadual de Campinas (UNICAMP),,-22.90556,-47.06083,27569,2
+140172145,University of Connecticut,,41.807167,-72.2525,27083,0
+200769079,Hong Kong University of Science and Technology,,22.336182,114.26512,27030,2
+129902397,Dalhousie University,,44.64269,-63.57688,26824,0
+867280407,The University of Texas Southwestern Medical Center,,32.78306,-96.80667,26758,1
+168719708,City University of Hong Kong,,22.336422,114.17299,26685,2
+84392919,Temple University,,39.95238,-75.16362,26519,0
+114395901,University of Nebraska–Lincoln,,40.824093,-96.700645,26454,0
+153976015,University of Ljubljana,,46.05108,14.50513,26368,2
+204308271,Medical College of Wisconsin,,43.04381,-88.02142,26222,2
+44461941,University of Houston,,29.720201,-95.34225,26124,2
+4210155236,National Research Council,,41.89193,12.51133,26116,1
+32625721,University of Saskatchewan,,52.13238,-106.66892,26056,2
+130442723,Universidade Federal do Rio Grande do Sul,,-30.03283,-51.23019,26052,0
+183519381,Capital Medical University,,39.865433,116.35284,25809,2
+194450716,Jilin University,,43.82497,125.28978,25687,2
+4210119109,Indiana University Bloomington,,39.170864,-86.51937,25574,1
+184565670,Georgetown University,,38.89511,-77.03637,25490,2
+73613424,National Institute of Advanced Industrial Science and Technology,,36.06024,140.1331,25340,0
+86501945,University of Delaware,,39.67911,-75.75217,25337,0
+195460627,University of Aberdeen,,57.165062,-2.102298,25248,2
+155781252,University of South Carolina,,34.00071,-81.03481,25247,2
+196349391,University of Ulm,,48.39841,9.99155,25128,2
+126231945,Queen's University Belfast,,54.584595,-5.93406,25047,0
+150744194,Waseda University,,35.7092,139.71933,25045,2
+26092322,Stellenbosch University,,-33.933163,18.862043,24958,2
+184840846,Virginia Commonwealth University,,37.55376,-77.46026,24547,2
+153297377,Medical University of South Carolina,,32.77657,-79.93092,24400,2
+1313323035,Russian Academy of Sciences,,55.75222,37.61556,24371,2
+69737025,University of Chile,,-33.44332,-70.65058,24223,2
+90610280,South China University of Technology,,23.151306,113.34464,24049,1
+131249849,Oregon State University,,44.56457,-123.26204,24017,0
+121748325,Universidad Complutense de Madrid,,40.4165,-3.70256,23703,0
+204778367,Norwegian University of Science and Technology,,63.43049,10.39506,23645,2
+189590672,Kansas State University,,39.18361,-96.57167,23545,2
+72816309,Drexel University,,39.95238,-75.16362,23450,2
+72951846,Washington State University,,46.73127,-117.17962,23418,0
+204722609,Queen's University,,44.225502,-76.49516,23336,2
+94624287,University of Twente,,52.21833,6.89583,23206,1
+76569877,Southeast University,,32.06167,118.77778,23122,0
+192455969,York University,,43.77367,-79.50189,23074,2
+4210117453,Dana-Farber Cancer Institute,,42.35843,-71.05977,23020,1
+205274468,Trinity College Dublin,,53.33306,-6.24889,23005,2
+88273585,Universidade Federal de São Paulo,,-23.5475,-46.63611,22782,1
+161296585,Tokyo University of Science,,35.69966,139.74298,22738,2
+155660961,University of Turku,,60.45148,22.26869,22575,2
+4210089966,London School of Hygiene & Tropical Medicine,,51.5209,-0.1307,22468,1
+197251160,Hebrew University of Jerusalem,,31.76904,35.21633,22347,2
+4577782,Technische Universität Berlin,,52.52437,13.41053,22241,2
+66862912,Chalmers University of Technology,,57.70716,11.96679,22029,0
+205640436,Curtin University,,-31.95224,115.8614,22000,2
+125839683,Beijing Institute of Technology,,39.95778,116.308334,21691,0
+76198965,Friedrich Schiller University Jena,,50.92878,11.5899,21601,2
+28022161,King Saud University,,24.68773,46.72185,21590,2
+162868743,Tianjin University,,39.111362,117.17482,21503,1
+93860229,Politecnico di Milano,,45.478863,9.228206,21479,1
+149704539,Deakin University,,-37.84978,145.119,21339,2
+124227911,Ben-Gurion University of the Negev,,31.262192,34.80151,21321,0
+150229711,University of Electronic Science and Technology of China,,30.675713,104.10027,21290,0
+114017466,University of Technology Sydney,,-33.883274,151.20045,21182,0
+161103922,Philipps University of Marburg,,50.80904,8.77069,21151,2
+113306721,Hiroshima University,,34.38222,132.45805,21034,0
+79817857,University of Guelph,,43.533413,-80.22727,21024,0
+174216632,City University of New York,,40.71427,-74.00597,20973,2
+185163786,King Abdulaziz University,,21.493889,39.25028,20924,2
+148366613,National Yang Ming Chiao Tung University,,24.80361,120.96861,20636,2
+4210125099,Mayo Clinic in Arizona,,33.50921,-111.89903,20633,1
+145847075,TU Wien,,48.20849,16.37208,20515,2
+121820613,Louisiana State University,,30.44332,-91.18747,20337,0
+9842412,Nanjing University of Aeronautics and Astronautics,,32.036007,118.813805,20210,0
+142606810,Pacific Northwest National Laboratory,,46.28569,-119.28446,20117,0
+4210140884,National Cancer Institute,,38.98067,-77.10026,19962,1
+25254941,Beijing Normal University,,39.957222,116.3625,19952,2
+204983213,Harbin Institute of Technology,,45.746998,126.63069,19946,2
+2801851002,Harvard University Press,,42.383015,-71.12706,19747,1
+4210126298,Duke Medical Center,,35.99403,-78.89862,19712,1
+102134673,Linköping University,,58.41086,15.62157,19440,0
+160993911,Queensland University of Technology,,-27.46794,153.02809,19276,2
+191208505,Xiamen University,,24.47979,118.08187,19172,2
+28290843,University of Surrey,,51.243057,-0.589444,19138,2
+107672454,Dartmouth College,,43.70229,-72.28954,18941,0
+83019370,Eindhoven University of Technology,,51.44083,5.47778,18902,0
+2279609970,University of Lille,,50.63297,3.05858,18790,1
+889458895,University of Hong Kong,,22.27832,114.17469,18567,1
+203951103,Keio University,,35.6895,139.69171,18266,2
+68956291,Martin Luther University Halle-Wittenberg,,51.48158,11.97947,18212,2
+9224756,Northeastern University,,41.769695,123.421036,18153,0
+31512782,Technical University of Darmstadt,,49.87167,8.65027,17903,2
+1288214837,United States Naval Research Laboratory,,38.89511,-77.03637,17819,2
+181647926,University of Strathclyde,,55.86515,-4.25763,17817,2
+865915315,Vrije Universiteit Amsterdam,,52.37403,4.88969,17791,1
+38877650,Zhengzhou University,,34.816025,113.53577,17693,2
+27357992,Dalian University of Technology,,38.91222,121.60222,17672,2
+69552723,University of Pretoria,,-25.74486,28.18783,17529,2
+169108374,University of the Basque Country,,43.32686,-2.98884,17209,2
+83519826,Nanjing Medical University,,32.06167,118.77778,17175,0
+124357947,University of London,,51.50853,-0.12574,17082,0
+79238269,Universidad de Sevilla,,37.38283,-5.97317,17045,0
+110200422,Universidade Federal de Minas Gerais,,-19.871904,-43.966248,16850,0
+158842170,Chongqing University,,29.56026,106.55771,16757,0
+59270414,Indian Institute of Science Bangalore,,13.021275,77.565765,16682,2
+4104125,Universidade Federal de Santa Catarina,,-27.59667,-48.54917,16373,2
+919571938,The University of Texas Health Science Center at Houston,,29.76328,-95.36327,16142,1
+881427289,University of Gothenburg,,57.70716,11.96679,15897,1
+71052956,University of Reading,,51.44083,-0.942503,15870,2
+13469542,Vrije Universiteit Brussel,,50.8232,4.392588,15581,0
+204824540,University of Wollongong,,-34.405148,150.87839,15140,2
+159385669,Chiba University,,35.62882,140.10349,15023,2
+114832834,Tulane University,,29.939493,-90.12228,14945,0
+113940042,Shanghai University,,31.22222,121.45806,14942,0
+82497590,Auburn University,,32.603374,-85.48608,14604,0
+166825849,Tampere University,,61.49911,23.78712,14595,2
+36243813,Universidad Nacional de Colombia,,4.60971,-74.08175,14586,2
+181343428,University of Zagreb,,45.81444,15.97798,14375,2
+177477856,Polytechnic University of Turin,,45.07049,7.68682,14308,2
+76214153,Lanzhou University,,36.05701,103.83987,13611,0
+106165777,University of Central Florida,,28.6016,-81.2005,13370,0
+145487455,Cairo University,,30.0276,31.21014,13257,0
+887968799,RWTH Aachen University,,50.77664,6.08342,12695,1
+52418104,Federal University of Paraná,,-25.42778,-49.27306,12148,2
+255234318,Universidad de Zaragoza,,41.65606,-0.87734,12083,1
+163770644,Okayama University,,34.65,133.93333,11993,2
+16609230,Hunan University,,28.180279,112.95278,11930,0
+157485424,Korea Advanced Institute of Science and Technology,,36.34913,127.38493,11812,2
+149594827,Xidian University,,34.12192,108.841415,11769,0
+859038795,Virginia Tech,,37.22957,-80.41394,11743,1
+17145004,Northwestern Polytechnical University,,34.24364,108.91378,11639,0
+205237279,Nankai University,,39.103928,117.17413,11576,2
+92403157,University of Science and Technology Beijing,,39.9075,116.39723,11517,0
+196699116,Wuhan University of Technology,,30.598944,114.34243,11477,2
+70640408,Tehran University of Medical Sciences,,35.69439,51.42151,11349,2
+100066346,University of Stuttgart,,48.78232,9.17702,11282,0
+115592961,Jiangsu University,,32.193966,119.51917,11200,0
+913481162,Wageningen University & Research,,51.97,5.66667,10874,1
+91807558,National Cheng Kung University,,23,120.21667,10677,1
+23946033,University of Tehran,,35.70347,51.3952,10667,2
+150729083,Universidade de Brasília,,-15.77972,-47.92972,10622,2
+14243506,Hong Kong Polytechnic University,,22.27832,114.17469,10616,0
+1174212,University of Southern California,,34.05223,-118.24368,9946,0
+881766915,Nanjing University,,32.05611,118.775,9914,1
+153473198,North China Electric Power University,,39.9075,116.39723,9334,0
+25757504,China University of Mining and Technology,,34.21466,117.285225,9128,2
+12315562,Texas Tech University,,33.58869,-101.864204,8309,0
+904495901,Ruhr University Bochum,,51.48165,7.21648,8279,1
+170215575,National University of Defense Technology,,28.234095,113.01198,7016,0
+879563668,Universidade Estadual Paulista (Unesp),,-23.5475,-46.63611,6754,1
+149899117,Max Planck Society,,48.13743,11.57549,6679,0
+926574661,Leipzig University,,51.33962,12.37129,6629,1
+891191580,Aalborg University,,57.048,9.9187,5224,1
+11701301,Griffith University,,-27.47061,153.02286,3625,0
+12097938,West Virginia University,,39.63582,-79.95453,3410,0
+2801280572,Environmental Molecular Sciences Laboratory,,46.28569,-119.28446,1884,1
+4210087414,Making View (Norway),,60.79644,11.063399,341,1
+4210112217,NamesforLife (United States),,42.73566,-84.47994,30,0
