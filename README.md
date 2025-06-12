@@ -1,23 +1,24 @@
-# 📊 STI Collaboration Dashboard
+STI Collaboration Dashboard
 
-Este projeto é um dashboard interativo feito com **Streamlit** para visualização de colaborações institucionais com base em dados de redes colaborativas.
+Conference paper: https://zenodo.org/records/14140026
 
-## 🔎 Funcionalidades
+This project is an interactive dashboard built with Streamlit for visualizing institutional collaborations based on collaborative network data.
 
-- 🌍 Mapa interativo com instituições geolocalizadas
-- 🕸️ Rede (grafo) de colaborações entre instituições
-- 📑 Tabela com as 1000 instituições com mais colaborações
-- 🎛️ Filtros por:
-  - Continente
-  - País
-  - Classe de modularidade
-  - Intervalo de colaborações
-  - Nome da instituição
+Features
+Interactive map with geolocated institutions
 
-## 🖥️ Como executar
+Network graph of institutional collaborations
 
-### 1. Clone o repositório:
+Table with the top 1000 institutions by number of collaborations
 
-```bash
-git clone https://github.com/fabianoborgesbsb/dashboard_colabs.git
-cd dashboard_colabs
+Filters by:
+
+Continent
+
+Country
+
+Modularity class
+
+Collaboration range
+
+Institution name
