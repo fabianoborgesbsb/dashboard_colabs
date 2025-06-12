@@ -5,11 +5,11 @@ import networkx as nx
 import plotly.graph_objects as go
 import reverse_geocoder as rg
 
-# Caminhos dos arquivos CSV
-nodes = pd.read_csv(r"C:\\Fabiano Borges 2019\\Meus estudos cientometria  2021\\Arquivos Python\\tabelaconsolidada_2024_400mil\\bienio_QGIS_dashboard\\4 STI cognitive\\nodes_colabs.csv")
-edges = pd.read_csv(r"C:\\Fabiano Borges 2019\\Meus estudos cientometria  2021\\Arquivos Python\\tabelaconsolidada_2024_400mil\\bienio_QGIS_dashboard\\4 STI cognitive\\edges_colabs.csv")
+# === Leitura dos dados (sem caminho absoluto!) ===
+nodes = pd.read_csv("nodes_colabs.csv")
+edges = pd.read_csv("edges_colabs.csv")
 
-# Mapeamento continente
+# === Mapeamento continente ===
 country_to_continent = {
     'US': 'North America', 'CA': 'North America', 'MX': 'North America',
     'BR': 'South America', 'AR': 'South America', 'CL': 'South America',
@@ -20,6 +20,7 @@ country_to_continent = {
     'AU': 'Oceania', 'NZ': 'Oceania'
 }
 
+# === Enriquecimento com país e continente ===
 @st.cache_data
 def enrich_nodes(df):
     coords = list(zip(df["latitude"], df["longitude"]))
@@ -30,15 +31,19 @@ def enrich_nodes(df):
 
 nodes = enrich_nodes(nodes)
 
-# Sidebar filters
+# === Filtros ===
 st.sidebar.title("🔍 Filters")
 search_term = st.sidebar.text_input("Search institution name")
+
 continents = sorted(nodes["continent"].unique())
 selected_continents = st.sidebar.multiselect("Continent", continents, default=continents)
+
 filtered_countries = nodes[nodes["continent"].isin(selected_continents)]["country"].unique()
 selected_countries = st.sidebar.multiselect("Country", sorted(filtered_countries), default=list(filtered_countries))
+
 mod_classes = sorted(nodes["modularity_class"].unique())
 selected_mods = st.sidebar.multiselect("Modularity class", mod_classes, default=mod_classes)
+
 colab_min = int(nodes["colabs_total"].min())
 colab_max = int(nodes["colabs_total"].max())
 selected_colabs = st.sidebar.slider("Minimum collaborations", colab_min, colab_max, (colab_min, colab_max))
@@ -57,7 +62,7 @@ top_nodes = filtered_nodes.sort_values(by="colabs_total", ascending=False).head(
 valid_ids = set(top_nodes["Id"])
 filtered_edges = edges[edges["Source"].isin(valid_ids) & edges["Target"].isin(valid_ids)]
 
-# Mapa
+# === Mapa ===
 st.header("📍 Institutions Map")
 fig_map = px.scatter_mapbox(
     top_nodes,
@@ -73,7 +78,7 @@ fig_map.update_layout(mapbox_style="open-street-map")
 fig_map.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 st.plotly_chart(fig_map)
 
-# Grafo
+# === Grafo ===
 st.header("🔗 Collaboration Network")
 G = nx.from_pandas_edgelist(filtered_edges, 'Source', 'Target')
 pos = {
@@ -117,7 +122,7 @@ fig_net = go.Figure(data=[edge_trace, node_trace],
 )
 st.plotly_chart(fig_net)
 
-# Tabela
+# === Tabela ===
 st.header("🏆 Top 1000 Institutions by Collaborations")
 st.dataframe(
     top_nodes[["Label", "colabs_total", "modularity_class", "continent", "country"]]
