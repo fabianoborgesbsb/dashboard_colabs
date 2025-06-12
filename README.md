@@ -2,6 +2,8 @@ STI - Collaboration Dashboard
 
 Conference paper: https://zenodo.org/records/14140026
 
+Dashboard: https://dashboardcolabs-cw3w6n7ugvdvogx2ok4wps.streamlit.app
+
 This project is an interactive dashboard built with Streamlit for visualizing institutional collaborations based on collaborative network data.
 
 Features
