@@ -123,7 +123,7 @@ fig_net = go.Figure(data=[edge_trace, node_trace],
 st.plotly_chart(fig_net)
 
 # === Tabela ===
-st.header("🏆 Top 1000 Institutions by Collaborations")
+st.header("Top Institutions - Scientific Collaborations")
 st.dataframe(
     top_nodes[["Label", "colabs_total", "modularity_class", "continent", "country"]]
     .style.background_gradient(subset=["colabs_total"], cmap="Blues")
