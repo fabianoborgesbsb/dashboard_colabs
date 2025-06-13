@@ -1,4 +1,4 @@
-cd "C:\caminho\para\dashboard_colabs"
+cd "C:\path file\dashboard_colabs"
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
