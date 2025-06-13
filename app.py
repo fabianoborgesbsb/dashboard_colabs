@@ -9,7 +9,7 @@ import reverse_geocoder as rg
 nodes = pd.read_csv("nodes_colabs.csv")
 edges = pd.read_csv("edges_colabs.csv")
 
-# === Mapeamento continente ===
+# === Mapping the continent ===
 country_to_continent = {
     'US': 'North America', 'CA': 'North America', 'MX': 'North America',
     'BR': 'South America', 'AR': 'South America', 'CL': 'South America',
@@ -20,7 +20,7 @@ country_to_continent = {
     'AU': 'Oceania', 'NZ': 'Oceania'
 }
 
-# === Enriquecimento com país e continente ===
+# === Countries and continents ===
 @st.cache_data
 def enrich_nodes(df):
     coords = list(zip(df["latitude"], df["longitude"]))
@@ -31,7 +31,7 @@ def enrich_nodes(df):
 
 nodes = enrich_nodes(nodes)
 
-# === Filtros ===
+# === Filters ===
 st.sidebar.title("🔍 Filters")
 search_term = st.sidebar.text_input("Search institution name")
 
@@ -62,7 +62,7 @@ top_nodes = filtered_nodes.sort_values(by="colabs_total", ascending=False).head(
 valid_ids = set(top_nodes["Id"])
 filtered_edges = edges[edges["Source"].isin(valid_ids) & edges["Target"].isin(valid_ids)]
 
-# === Mapa ===
+# === Map ===
 st.header("📍 Institutions Map")
 fig_map = px.scatter_mapbox(
     top_nodes,
