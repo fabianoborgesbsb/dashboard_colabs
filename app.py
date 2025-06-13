@@ -5,11 +5,11 @@ import networkx as nx
 import plotly.graph_objects as go
 import reverse_geocoder as rg
 
-# === Leitura dos dados (sem caminho absoluto!) ===
+# === Dataset ===
 nodes = pd.read_csv("nodes_colabs.csv")
 edges = pd.read_csv("edges_colabs.csv")
 
-# === Mapeamento continente ===
+# === Mapping the continents ===
 country_to_continent = {
     'US': 'North America', 'CA': 'North America', 'MX': 'North America',
     'BR': 'South America', 'AR': 'South America', 'CL': 'South America',
@@ -20,7 +20,7 @@ country_to_continent = {
     'AU': 'Oceania', 'NZ': 'Oceania'
 }
 
-# === Enriquecimento com país e continente ===
+# === Countries and continents ===
 @st.cache_data
 def enrich_nodes(df):
     coords = list(zip(df["latitude"], df["longitude"]))
@@ -31,7 +31,7 @@ def enrich_nodes(df):
 
 nodes = enrich_nodes(nodes)
 
-# === Filtros ===
+# === Filters ===
 st.sidebar.title("🔍 Filters")
 search_term = st.sidebar.text_input("Search institution name")
 
@@ -79,7 +79,7 @@ fig_map.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 st.plotly_chart(fig_map)
 
 # === Grafo ===
-st.header("🔗 Collaboration Network")
+st.header("World Map - Scientific Collaboration")
 G = nx.from_pandas_edgelist(filtered_edges, 'Source', 'Target')
 pos = {
     row['Id']: (row['longitude'], row['latitude'])
