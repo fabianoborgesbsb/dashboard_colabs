@@ -1,6 +1,7 @@
 Scientific Collaboration - Dashboard
 
 Conference paper (STI) "Cognitive and Geographical Proximities Across Universities: Evidence from the OpenAlex Database": https://zenodo.org/records/14140026
+Codes: https://github.com/alyssonmazoni/institutions_cognitive
 
 Dashboard: https://dashboardcolabs-cw3w6n7ugvdvogx2ok4wps.streamlit.app
 
