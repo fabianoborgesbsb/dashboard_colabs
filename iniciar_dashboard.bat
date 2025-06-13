@@ -5,7 +5,7 @@ echo 🚀 Iniciando o dashboard STI...
 echo =====================================
 
 REM === Defina aqui o caminho da sua pasta do projeto ===
-set "PROJ_DIR=C:\Fabiano Borges 2019\Meus estudos cientometria  2021\Arquivos Python\tabelaconsolidada_2024_400mil\bienio_QGIS_dashboard\4 STI cognitive\dashboard_colabs"
+set "PROJ_DIR=file path\dashboard_colabs"
 
 cd /d "%PROJ_DIR%"
 
