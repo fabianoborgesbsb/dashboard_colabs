@@ -5,9 +5,10 @@ import networkx as nx
 import plotly.graph_objects as go
 import reverse_geocoder as rg
 
-# === data ===
-nodes = pd.read_csv("nodes_colabs.csv")
-edges = pd.read_csv("edges_colabs.csv")
+# Caminhos dos arquivos CSV
+nodes = pd.read_csv(r"C:\\Fabiano Borges 2019\\Meus estudos cientometria  2021\\Arquivos Python\\tabelaconsolidada_2024_400mil\\bienio_QGIS_dashboard\\4 STI cognitive\\nodes_colabs.csv")
+edges = pd.read_csv(r"C:\\Fabiano Borges 2019\\Meus estudos cientometria  2021\\Arquivos Python\\tabelaconsolidada_2024_400mil\\bienio_QGIS_dashboard\\4 STI cognitive\\edges_colabs.csv")
+
 
 # === Mapping the continent ===
 country_to_continent = {
