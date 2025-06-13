@@ -5,7 +5,7 @@ import networkx as nx
 import plotly.graph_objects as go
 import reverse_geocoder as rg
 
-# === Leitura dos dados (sem caminho absoluto!) ===
+# === data ===
 nodes = pd.read_csv("nodes_colabs.csv")
 edges = pd.read_csv("edges_colabs.csv")
 
