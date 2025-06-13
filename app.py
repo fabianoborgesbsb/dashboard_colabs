@@ -62,8 +62,8 @@ top_nodes = filtered_nodes.sort_values(by="colabs_total", ascending=False).head(
 valid_ids = set(top_nodes["Id"])
 filtered_edges = edges[edges["Source"].isin(valid_ids) & edges["Target"].isin(valid_ids)]
 
-# === Mapa ===
-st.header("📍 Institutions Map")
+# === Map ===
+st.header("Institutions Map")
 fig_map = px.scatter_mapbox(
     top_nodes,
     lat="latitude",
@@ -78,7 +78,7 @@ fig_map.update_layout(mapbox_style="open-street-map")
 fig_map.update_layout(margin={"r": 0, "t": 0, "l": 0, "b": 0})
 st.plotly_chart(fig_map)
 
-# === Grafo ===
+# === Graph ===
 st.header("World Map - Scientific Collaboration")
 G = nx.from_pandas_edgelist(filtered_edges, 'Source', 'Target')
 pos = {
@@ -122,7 +122,7 @@ fig_net = go.Figure(data=[edge_trace, node_trace],
 )
 st.plotly_chart(fig_net)
 
-# === Tabela ===
+# === Table ===
 st.header("Top Institutions in OpenAlex")
 st.dataframe(
     top_nodes[["Label", "colabs_total", "modularity_class", "continent", "country"]]
