@@ -5,12 +5,11 @@ import networkx as nx
 import plotly.graph_objects as go
 import reverse_geocoder as rg
 
-# Caminhos dos arquivos CSV
-nodes = pd.read_csv(r"C:\\Fabiano Borges 2019\\Meus estudos cientometria  2021\\Arquivos Python\\tabelaconsolidada_2024_400mil\\bienio_QGIS_dashboard\\4 STI cognitive\\nodes_colabs.csv")
-edges = pd.read_csv(r"C:\\Fabiano Borges 2019\\Meus estudos cientometria  2021\\Arquivos Python\\tabelaconsolidada_2024_400mil\\bienio_QGIS_dashboard\\4 STI cognitive\\edges_colabs.csv")
+# === Leitura dos dados (sem caminho absoluto!) ===
+nodes = pd.read_csv("nodes_colabs.csv")
+edges = pd.read_csv("edges_colabs.csv")
 
-
-# === Mapping the continent ===
+# === Mapeamento continente ===
 country_to_continent = {
     'US': 'North America', 'CA': 'North America', 'MX': 'North America',
     'BR': 'South America', 'AR': 'South America', 'CL': 'South America',
@@ -21,7 +20,7 @@ country_to_continent = {
     'AU': 'Oceania', 'NZ': 'Oceania'
 }
 
-# === Countries and continents ===
+# === Enriquecimento com país e continente ===
 @st.cache_data
 def enrich_nodes(df):
     coords = list(zip(df["latitude"], df["longitude"]))
@@ -32,7 +31,7 @@ def enrich_nodes(df):
 
 nodes = enrich_nodes(nodes)
 
-# === Filters ===
+# === Filtros ===
 st.sidebar.title("🔍 Filters")
 search_term = st.sidebar.text_input("Search institution name")
 
@@ -63,7 +62,7 @@ top_nodes = filtered_nodes.sort_values(by="colabs_total", ascending=False).head(
 valid_ids = set(top_nodes["Id"])
 filtered_edges = edges[edges["Source"].isin(valid_ids) & edges["Target"].isin(valid_ids)]
 
-# === Map ===
+# === Mapa ===
 st.header("📍 Institutions Map")
 fig_map = px.scatter_mapbox(
     top_nodes,
