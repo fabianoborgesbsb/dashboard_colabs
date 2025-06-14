@@ -15,15 +15,14 @@ country_to_continent = {
     'BR': 'South America', 'AR': 'South America', 'CL': 'South America',
     'CO': 'South America', 'PE': 'South America', 'VE': 'South America', 'EC': 'South America', 'UY': 'South America',
     'FR': 'Europe', 'DE': 'Europe', 'GB': 'Europe', 'IT': 'Europe', 'ES': 'Europe', 'NL': 'Europe', 'SE': 'Europe', 'BE': 'Europe',
-    'CN': 'Asia', 'JP': 'Asia', 'IN': 'Asia', 'KR': 'Asia', 'RU': 'Asia',
+    'DK': 'Europe', 'NO': 'Europe', 'FI': 'Europe', 'CZ': 'Europe', 'CH': 'Europe', 'GR': 'Europe', 'AT': 'Europe',
+    'PT': 'Europe', 'PL': 'Europe', 'IE': 'Europe', 'SI': 'Europe', 'RS': 'Europe', 'HR': 'Europe',
+
+    'CN': 'Asia', 'JP': 'Asia', 'IN': 'Asia', 'KR': 'Asia', 'RU': 'Asia', 'SG': 'Asia',
+    'TW': 'Asia', 'HK': 'Asia', 'IL': 'Asia', 'MY': 'Asia', 'IR': 'Asia', 'SA': 'Asia',
+
     'ZA': 'Africa', 'EG': 'Africa', 'NG': 'Africa', 'KE': 'Africa',
-    'AU': 'Oceania', 'NZ': 'Oceania',
-    # Países adicionais detectados
-    'CH': 'Europe', 'DK': 'Europe', 'NO': 'Europe', 'CZ': 'Europe',
-    'FI': 'Europe', 'SG': 'Asia', 'GR': 'Europe', 'AT': 'Europe',
-    'RS': 'Europe', 'HK': 'Asia', 'PT': 'Europe', 'IL': 'Asia',
-    'PL': 'Europe', 'IE': 'Europe', 'TW': 'Asia', 'MY': 'Asia',
-    'SI': 'Europe', 'SA': 'Asia', 'HR': 'Europe', 'IR': 'Asia'
+    'AU': 'Oceania', 'NZ': 'Oceania'
 }
 
 # === Countries and continents ===
@@ -31,8 +30,8 @@ country_to_continent = {
 def enrich_nodes(df):
     coords = list(zip(df["latitude"], df["longitude"]))
     results = rg.search(coords, mode=1)
-    df["country"] = [r["cc"] for r in results]
-    df["continent"] = [country_to_continent.get(r["cc"], "Unknown") for r in results]
+    df["country"] = [r["cc"].upper() for r in results]
+    df["continent"] = [country_to_continent.get(r["cc"].upper(), "Unknown") for r in results]
     return df
 
 nodes = enrich_nodes(nodes)
