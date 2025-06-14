@@ -17,7 +17,13 @@ country_to_continent = {
     'FR': 'Europe', 'DE': 'Europe', 'GB': 'Europe', 'IT': 'Europe', 'ES': 'Europe', 'NL': 'Europe', 'SE': 'Europe', 'BE': 'Europe',
     'CN': 'Asia', 'JP': 'Asia', 'IN': 'Asia', 'KR': 'Asia', 'RU': 'Asia',
     'ZA': 'Africa', 'EG': 'Africa', 'NG': 'Africa', 'KE': 'Africa',
-    'AU': 'Oceania', 'NZ': 'Oceania'
+    'AU': 'Oceania', 'NZ': 'Oceania',
+    # Países adicionais detectados
+    'CH': 'Europe', 'DK': 'Europe', 'NO': 'Europe', 'CZ': 'Europe',
+    'FI': 'Europe', 'SG': 'Asia', 'GR': 'Europe', 'AT': 'Europe',
+    'RS': 'Europe', 'HK': 'Asia', 'PT': 'Europe', 'IL': 'Asia',
+    'PL': 'Europe', 'IE': 'Europe', 'TW': 'Asia', 'MY': 'Asia',
+    'SI': 'Europe', 'SA': 'Asia', 'HR': 'Europe', 'IR': 'Asia'
 }
 
 # === Countries and continents ===
